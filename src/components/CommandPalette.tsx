@@ -164,12 +164,12 @@ function CommandPalette({
               as={Fragment}
               enter="ease-out duration-300"
               enterFrom="opacity-0"
-              enterTo="opacity-100"
+              enterTo="opacity-20"
               leave="ease-in duration-200"
-              leaveFrom="opacity-100"
+              leaveFrom="opacity-20"
               leaveTo="opacity-0"
             >
-              <div className="fixed inset-0 bg-gray-900 bg-opacity-80" />
+              <div className="fixed inset-0 bg-gray-900 bg-opacity-20" />
             </Transition.Child>
 
             <div className="fixed inset-0 overflow-y-auto flex items-center justify-center">
